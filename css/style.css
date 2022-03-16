@@ -1,9 +1,9 @@
-.wrapper {
-	transition-duration: 0.5s;
-	width: 75%; /* 1440 : 1920*/
-	/*height: 1080px;*/
-	margin: auto auto;
-	font-family: 'Roboto', sans-serif;
+.wrapper{
+    width: 75%;
+    margin: auto;
+    transition-duration: 0.5s;
+    font-family: Roboto;
+    overflow: hidden;
 }
 header {
 	float: left;
@@ -89,7 +89,7 @@ h2 {
 	height: 16.71826625386997vh; /*162 : 969*/
 	margin-left: 0.83333333333333vw; /*16 : 1920*/
 	font-size: 0.90333333333333vw; /*17 : 1920*/
-	line-height: 1.96078431372549vh; /*19 ; 969*/
+	line-height: 2.36078431372549vh; /*19 ; 969*/
 	text-align: justify;
 }
 .bhtml {
@@ -128,18 +128,18 @@ h2 {
 	line-height: 1.96078431372549vh; /*19 ; 969*/
 	text-align: justify;
 }
-main .articleleft h2, main .articleright h2{
-		padding-top: 0.4vh;
+.articleleft h2, .articleright h2{
+    padding-top: 0.4vh;
 }
 .sectiondown {
-	width: 95.9748427672956%; /*763 : 795*/
-	height: 10.8359133126935vh; /*105 : 969*/
-	margin-left: 0.83333333333333vw; /*16 : 1920*/
-	margin-top: 4.12796697626419vh; /*40 : 969*/
-	font-size: 0.87333333333333vw; /*17 : 1920*/
-	line-height: 1.96078431372549vh; /*19 : 969*/
-	text-align: justify;
-	color: #000000;
+width: 95.9748427672956%; /*763 : 795*/
+height: 10.8359133126935vh; /*105 : 969*/
+margin-left: 0.83333333333333vw; /*16 : 1920*/
+margin-top: 4.12796697626419vh; /*40 : 969*/
+font-size: 0.87333333333333vw; /*17 : 1920*/
+line-height: 2.36078431372549vh; /*19 ; 969*/
+text-align: justify;
+color: #000000;
 }
 .asideright {
 	float: left;
@@ -177,8 +177,7 @@ main .articleleft h2, main .articleright h2{
 	line-height: 1.96078431372549vh;
 	text-align: justify;
 	color: #000000;
-}
-.asideart1 p {
+}.asideart1 p {
 	height: 13.72549019607843vh; /*133 : 969*/
 	margin-bottom: 5.67595459236326vh; /*55 : 969*/
 }
@@ -191,10 +190,10 @@ footer {
 	margin-top: 12.38390092879257vh; /*120 : 969*/
 	float: left;
 	width: 95.55555555555556%; /*1376 : 1440*/
-	height: 10.73271413828689vh; /*104 : 969*/
 	margin-left: 1.66666666666667vw; /*32 : 1920*/
 	margin-bottom: 0;
 }
+
 footer p {
 	float: left;
 	width: 20.20348837209302%; /*278 : 1376*/
@@ -224,7 +223,7 @@ footer p {
 	text-align: center;
 }
 /*МЕДИА-ЗАПРОСЫ*/
-@media (max-width: 1280px) and (min-width: 1081px) {
+@media (max-width: 1480px) and (min-width: 1081px) {
 	.sectionup h1 {
 		font-size: 1.5625vw; /*20 : 1280*/
 		width: auto;
@@ -238,7 +237,7 @@ footer p {
 	main .articleleft p, main .articleright p {
 		font-size: 1.15vw; /*16 : 1280*/
 		margin-bottom: 6.36666666666667vh; /*45 : 720*/
-		line-height: 2.25vh; /**/
+		line-height: 2.45vh; /**/
 		margin-bottom: 8.25vh;
 	}
 	.asideright p {
@@ -256,11 +255,8 @@ footer p {
 @media (max-width: 1080px) and (min-width: 769px){
 	.wrapper {
 	width: 98%;
-	margin: auto auto;
-	font-family: 'Roboto', sans-serif;
 	}
 	header {
-		float: left;
 		width: 94.07407407407407%; /*1016 : 1080*/
 		margin-left: 2.96296296296296vw; /*32 : 1080*/
 	}
@@ -268,17 +264,12 @@ footer p {
 		width: 17.44791666666667vw; /*134 : 768*/
 	}
 	header p {
-		float: right;
 		width: 14.66535433070866%; /*149 : 1016*/
-		margin-right: 2.96296296296296vw; /*32 : 1080*/
+		margin-right: 2.9629629629vw; /*32 : 1080*/
 		margin-top: 3.38541666666667vh; /*26 : 768*/
-		font-weight: bold;
 		font-size: 1.2962962962963vw; /*14 : 1080*/
-		/* identical to box height */
-		color: #1E5F57;
 	}
 	aside {
-		float: left;
 		width: 94.07407407407407%; /*1016 : 1080*/
 		margin-left: 2.96296296296296vw; /*32 : 1080*/
 		margin-top: -6.25vh; /*12 : 768*/
@@ -286,19 +277,13 @@ footer p {
 	aside ul {
 		margin-left: 4.62962962962963vw; /*50 % 1080*/
 		text-align: center;
-		font-weight: bold;
 		font-size: 1.66666666666667vw; /*18 : 1080*/
-		/* or 145% */
-		color: #1E5F57;
 	}
 	aside li {
 		display:inline-block;
 		width:14%;
-		margin:0;
-		padding:0;
 	}
 	main {
-		float: left;
 		width: 61.94444444444444%; /*669 : 1080*/
 		margin-left: 2.96296296296296vw; /*32 : 1080*/
 		margin-top: 2.47678018575851vh; /*24 : 969*/
@@ -308,21 +293,13 @@ footer p {
 		width: 48.28101644245142%; /*323 : 669*/
 		margin-left: 16.01851851851852vw; /*173 : 1080*/
 		margin-top: 0;
-		font-weight: bold;
 		font-size: 2.36666666666667vw; /*18 : 1080*/
-		/* identical to box height, or 125% */
-		color: #1E5F57;
 	}
 	h2 {
 		font-size: 1.66666666666667vw; /*18 : 1080*/
-		font-weight: 500;
-		color: white;
-		text-align: center;
-		background: #1E5F57;
 	}
 	.articleleft, .articleright {
 		width: 48.28101644245142%; /*323 : 669*/
-		float: left;
 	}
 	.articleleft h2{
 		width: 99.69040247678019%; /*322 : 323*/
@@ -339,19 +316,6 @@ footer p {
 		margin-left: 0.83333333333333vw; /*16 : 1920*/
 		font-size: 1.48148148148148vw; /*16 : 1080*/
 		line-height: 2.47395833333333vh; /*19 : 768*/
-		text-align: justify;
-	}
-	.bhtml {
-		color: #FF7E06;
-	}
-	.bcss {
-		color: #062EFF;
-	}
-	.bbootstrap {
-		color: #682174;
-	}
-	.bangularjs {
-		color: #FF0F0F;
 	}
 	.articleright {
 		padding-right: 0.83333333333333vw; /*16 : 1920*/
@@ -362,7 +326,6 @@ footer p {
 		margin-left: 2.22222222222222vw; /*24 : 1080*/
 		margin-top: 1.30208333333333vh; /*10 : 768*/
 		padding-top: 0.70208333333333vh; /*10 : 768*/
-		background: #1E5F57;
 		font-size: 2.06666666666667vw; /*20 : 1080*/
 	}
 	.articleright p {
@@ -371,7 +334,6 @@ footer p {
 		margin-left: 2.22222222222222vw; /*24 : 1080*/
 		font-size: 1.48148148148148vw; /*16 : 1080*/
 		line-height: 2.47395833333333vh; /*19 : 768*/
-		text-align: justify;
 	}
 	.sectiondown {
 		width: 97.15994020926756%; /*650 % 669*/
@@ -380,98 +342,69 @@ footer p {
 		margin-top: 2.06398348813209vh; /*20 : 969*/
 		font-size: 1.48148148148148vw; /*16 : 1080*/
 		line-height: 2.44140625vh; /*18.75 : 768*/
-		text-align: justify;
-		color: #000000;
 	}
 	.asideright {
-		float: left;
 		width: 29.90740740740741%; /*323 : 1080*/
 		margin-left: 2.22222222222222vw; /*24 : 1080*/
 		margin-top: 2.16666666666667vh; /*16 : 768*/
 	}
 	.asideright h1{
-		text-align: center;
 		margin-top: 1.69270833333333vh; /*13 : 768*/
 		margin-bottom: 1.85758513931889vh; /*18 : 969*/
-		font-weight: normal;
 		font-size: 2.03703703703704vw; /*22 : 1080*/
-		/* identical to box height */
-		color: #000000;
 	}
 	.asideright h2 {
 		padding-bottom: 0.45104166666667vh; /*4 : 768*/
 		width: 100%;
 		height: 3.125vh; /*24 : 768*/
-		background: #1E5F57;
 		font-size: 1.66666666666667vw; /*18 : 1080*/
 		line-height: 3.59597523219814vh; /*30 : 969*/
-		/* identical to box height, or 150% */
-		color: #FFFFFF;
 	}
 	.asideright p {
 		width: 100%;
 		height: 23.52941176470588vh; /*228 : 969*/
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
 		font-size: 1.48148148148148vw; /*16 : 1080*/
 		line-height: 2.48333333333333vh; /*16 : 768*/
-		text-align: justify;
-		color: #000000;
 	}
 	.asideart1 p {
 		height: 13.72549019607843vh; /*133 : 969*/
 		margin-bottom: 8.67595459236326vh; /*55 : 969*/
 	}
 	.asideright b p {
-		font-weight: 700;
 		font-size: 1.85185185185185vw; /*20 : 1080*/
 		margin-top: 9.85036119711042vh; /*90 : 969*/
 	}
 	footer {
 		margin-top: 4.296875vh; /*33 : 768*/
-		float: left;
 		width: 94.07407407407407%; /*1016 : 1080*/
 		height: 6.25vh; /*48 : 768*/
 		margin-left: 2.96296296296296vw; /*32 : 1080*/
-		margin-bottom: 0;
 	}
 	footer p {
-		float: left;
 		width: 31.79133858267717%; /*323 : 1016*/
 		height: 100%;
 		text-align: center;
-		font-weight: 600;
 		font-size: 1.48148148148148vw; /*16 : 1080*/
 		line-height: 2.44140625vh; /*18.75 : 768*/
-		/* or 150% */
-		color: #1E5F57;
 	}
 	.footerp2 {
-		float: left;
 		width: 30.79133858267717%; /*323 : 1016*/
 		text-align: center;
 		height: 100%;
 		margin-left: 2.31481481481481vw; /*25 : 1080*/
-		/* identical to box height, or 150% */
 	}
 	.footerp3 {
 		text-align: center;
 		width: 23.79133858267717%; /*323 : 1016*/
 		height: 100%;
 		margin-left: 2.22222222222222vw; /*24 : 1080*/
-		text-align: center;
 	}
 }
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 481px){
 	.wrapper {
-	overflow: hidden;
-	width: 100%;
-	margin: auto auto;
-	font-family: 'Roboto', sans-serif;
+	width: 95%;
 	}
 	header {
-		float: left;
 		width: 94.07407407407407%; /*1016 : 1080*/
 		margin-left: 2.96296296296296vw; /*32 : 1080*/
 	}
@@ -479,36 +412,26 @@ footer p {
 		width: 17.44791666666667vw; /*134 : 768*/
 	}
 	header p {
-		float: right;
 		width: 22.57291666666667%; /*162 : 768*/
 		margin-right: 2.96296296296296vw; /*32 : 1080*/
 		margin-top: 3.38541666666667vh; /*26 : 768*/
-		font-weight: bold;
 		font-size: 2.08333333333333vw; /*16 : 1080*/
-		/* identical to box height */
-		color: #1E5F57;
 	}
 	aside {
-		width: 100%;
+		width: 90%;
 		text-align: center;
 		margin: 0 4.16666666666667vw; /*32 : 768*/
 		margin-top: -6.25vh; /*12 : 768*/
 	}
 	aside ul {
 		text-align: center;
-		font-weight: bold;
-		font-size: 2.34375vw; /*18 : */
-		/* or 145% */
-		color: #1E5F57;
+		font-size: 2.34375vw; /*18 : 768*/
 	}
 	aside li {
 		display:inline-block;
 		width:18%;
-		margin:0;
-		padding:0;
 	}
 	main {
-		float: left;
 		width: 91.66666666666667%; /*704 : 768*/
 		margin-left: 3.66666666666667vw; /*32 : 768*/
 		margin-top: 2.96296296296296vh; /*32 : 1080*/
@@ -518,21 +441,13 @@ footer p {
 		width: 44.27083333333333%; /*340 : 768*/
 		margin-left: 23.69791666666667vw; /*182 : 768*/
 		margin-top: 0;
-		font-weight: bold;
 		font-size: 2.60416666666667vw; /*20 : 768*/
-		/* identical to box height, or 125% */
-		color: #1E5F57;
 	}
 	h2 {
 		font-size: 2.34375vw; /*18 : 768*/
-		font-weight: 500;
-		color: white;
-		text-align: center;
-		background: #1E5F57;
 	}
 	.articleleft, .articleright {
 		width: 48.29545454545455%; /*340 : 704*/
-		float: left;
 	}
 	.articleleft h2{
 		width: 100%;
@@ -544,19 +459,6 @@ footer p {
 		height: 17.70833333333333vh; /*136 : 768*/
 		font-size: 2.08333333333333vw; /*16 : 768*/
 		line-height: 2.47395833333333vh; /*19 : 768*/
-		text-align: justify;
-	}
-	.bhtml {
-		color: #FF7E06;
-	}
-	.bcss {
-		color: #062EFF;
-	}
-	.bbootstrap {
-		color: #682174;
-	}
-	.bangularjs {
-		color: #FF0F0F;
 	}
 	.articleright {
 		padding-right: 0.83333333333333vw; /*16 : 1920*/
@@ -566,7 +468,6 @@ footer p {
 		height: 2.96296296296296vh; /*32 : 1080*/
 		margin-left: 3.125vw; /*24 : 768*/
 		margin-top: 1.30208333333333vh; /*10 : 768*/
-		background: #1E5F57;
 	}
 	.articleright p {
 		width: 99.69040247678019%; /*322 : 323*/
@@ -574,7 +475,6 @@ footer p {
 		margin-left: 3.125vw; /*24 : 768*/
 		font-size: 2.08333333333333vw; /*16 : 768*/
 		line-height: 2.47395833333333vh; /*19 : 768*/
-		text-align: justify;
 	}
 	.sectiondown {
 		width: 100%;
@@ -582,8 +482,6 @@ footer p {
 		margin-top: 2%;
 		font-size: 2.08333333333333vw; /*16 : 768*/
 		line-height: 2.44140625vh; /*18.75 : 768*/
-		text-align: justify;
-		color: #000000;
 	}
 	.asiderightdiv1, .asiderightdiv2 {
 		margin-top: -4%;
@@ -594,68 +492,48 @@ footer p {
 		margin-left: 3.40909090909091%; /*24 : 768 */
 	}
 	.asideright {
-		float: left;
+		height: 48.14814814814815vh; /*520 : 1080*/
 		width: 92.06666666666667%; /*704 : 768*/
 		margin-left: 4.16666666666667vw; /*32 : 768*/
 		margin-top: 2.16666666666667vh; /*16 : 768*/
 	}
 	.asideright h1{
-		text-align: center;
-		margin-top: 1.69270833333333vh; /*13 : 768*/
-		font-weight: normal;
+		margin-top: 3.69270833333333vh; /*13 : 768*/
+		margin-bottom: 3.69270833333333vh; /*13 : 768*/
 		font-size: 2.60416666666667vw; /*20 : 768*/
-		/* identical to box height */
-		color: #000000;
 	}
 	.asideright h2 {
-		float: left;
 		padding-bottom: 0.45104166666667vh; /*4 : 768*/
 		width: 100%;
 		height: 3.125vh; /*24 : 768*/
-		background: #1E5F57;
 		font-size: 2.34375vw; /*18 : 768*/
 		line-height: 3.59597523219814vh; /*30 : 969*/
-		/* identical to box height, or 150% */
-		color: #FFFFFF;
 	}
 	.asideright p {
 		width: 100%;
 		height: 23.52941176470588vh; /*228 : 969*/
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 1.82291666666667vw; /*14 : 768*/
-		line-height: 2.08333333333333vh; /*16 : 768*/
-		text-align: justify;
-		color: #000000;
+		font-size: 2.08333333333333vw; /*16 : 768*/
+		line-height: 2.38333333333333vh; /*16 : 768*/
 	}
 	.asideright b p {
-		font-weight: 700;
 		font-size: 2.34375vw; /*18 : 768*/
-		position: absolute;
-		left: 75.16666666666667vw;
-		top: 162vw;
+		float: left;
+		margin-left: 75%;
+		margin-top: 0;
 	}
 	footer {
-		margin-top: -30.296875vh; 
-		float: left;
+		margin-top: 10%;
 		width: 91.66666666666667%; /*704 : 768*/
 		height: 6.25vh; /*48 : 768*/
-		margin-bottom: 0;
 	}
 	footer p {
-		float: left;
 		width: 32.96590909090909%; /*218 : 704*/
 		height: 100%;
 		text-align: center;
-		font-weight: 600;
 		font-size: 2.08333333333333vw; /*16 : 768*/
 		line-height: 2.44140625vh; /*18.75 : 768*/
-		/* or 150% */
-		color: #1E5F57;
 	}
 	.footerp2 {
-		float: left;
 		width: 30.96590909090909%; /*204 : 768*/
 		text-align: center;
 		height: 100%;
@@ -667,6 +545,152 @@ footer p {
 		width: 25.96590909090909%; /*218 : 704*/
 		height: 100%;
 		margin-left: 2.22222222222222vw; /*24 : 1080*/
+	}
+}
+@media (max-width: 480px){
+	.wrapper {
+	width: 95%;
+	}
+	header {
+		width: 94.07407407407407%; /*1016 : 1080*/
+		margin-left: 2.96296296296296vw; /*32 : 1080*/
+	}
+	header img {
+		width: 17.44791666666667vw; /*134 : 768*/
+	}
+	header p {
+		width: 22.57291666666667%; /*162 : 768*/
+		margin-right: 2.96296296296296vw; /*32 : 1080*/
+		margin-top: 3.38541666666667vh; /*26 : 768*/
+		font-size: 2.08333333333333vw; /*16 : 1080*/
+	}
+	aside {
+		width: 90%;
 		text-align: center;
+		margin: 0 4.16666666666667vw; /*32 : 768*/
+		margin-top: -6.25vh; /*12 : 768*/
+	}
+	aside ul {
+		text-align: center;
+		font-size: 2.34375vw; /*18 : 768*/
+	}
+	aside li {
+		display:inline-block;
+		width:18%;
+	}
+	main {
+		width: 91.66666666666667%; /*704 : 768*/
+		margin-left: 3.66666666666667vw; /*32 : 768*/
+		margin-top: 2.96296296296296vh; /*32 : 1080*/
+	}
+	.sectionup h1 {
+		text-align: center;
+		width: 44.27083333333333%; /*340 : 768*/
+		margin-left: 23.69791666666667vw; /*182 : 768*/
+		margin-top: 0;
+		font-size: 2.60416666666667vw; /*20 : 768*/
+	}
+	h2 {
+		font-size: 2.34375vw; /*18 : 768*/
+	}
+	.articleleft, .articleright {
+		width: 48.29545454545455%; /*340 : 704*/
+	}
+	.articleleft h2{
+		width: 100%;
+		height: 2.96296296296296vh; /*32 : 1080*/
+		margin-top: 1.30208333333333vh; /*10 : 768*/
+	}
+	.articleleft p {
+		width: 100%;
+		height: 17.70833333333333vh; /*136 : 768*/
+		font-size: 2.08333333333333vw; /*16 : 768*/
+		line-height: 2.47395833333333vh; /*19 : 768*/
+	}
+	.articleright {
+		padding-right: 0.83333333333333vw; /*16 : 1920*/
+	}
+	.articleright h2 {
+		width: 99.69040247678019%; /*322 : 323*/
+		height: 2.96296296296296vh; /*32 : 1080*/
+		margin-left: 3.125vw; /*24 : 768*/
+		margin-top: 1.30208333333333vh; /*10 : 768*/
+	}
+	.articleright p {
+		width: 99.69040247678019%; /*322 : 323*/
+		height: 22.91666666666667vh; /*176 : 768*/
+		margin-left: 3.125vw; /*24 : 768*/
+		font-size: 2.08333333333333vw; /*16 : 768*/
+		line-height: 2.47395833333333vh; /*19 : 768*/
+	}
+	.sectiondown {
+		width: 100%;
+		height: 10.8359133126935vh; /*105 : 969*/
+		margin-top: 2%;
+		font-size: 2.08333333333333vw; /*16 : 768*/
+		line-height: 2.44140625vh; /*18.75 : 768*/
+	}
+	.asiderightdiv1, .asiderightdiv2 {
+		margin-top: -4%;
+		float: left;
+		width: 48.29545454545455%; /*340 : 704*/
+	}
+	.asiderightdiv2 {
+		margin-left: 3.40909090909091%; /*24 : 768 */
+	}
+	.asideright {
+		height: 48.14814814814815vh; /*520 : 1080*/
+		width: 92.06666666666667%; /*704 : 768*/
+		margin-left: 4.16666666666667vw; /*32 : 768*/
+		margin-top: 2.16666666666667vh; /*16 : 768*/
+	}
+	.asideright h1{
+		margin-top: 3.69270833333333vh; /*13 : 768*/
+		margin-bottom: 3.69270833333333vh; /*13 : 768*/
+		font-size: 2.60416666666667vw; /*20 : 768*/
+	}
+	.asideright h2 {
+		padding-bottom: 0.45104166666667vh; /*4 : 768*/
+		width: 100%;
+		height: 3.125vh; /*24 : 768*/
+		font-size: 2.34375vw; /*18 : 768*/
+		line-height: 3.59597523219814vh; /*30 : 969*/
+	}
+	.asideright p {
+		width: 100%;
+		height: 23.52941176470588vh; /*228 : 969*/
+		font-size: 2.08333333333333vw; /*16 : 768*/
+		line-height: 2.38333333333333vh; /*16 : 768*/
+	}
+	.asideright b p {
+		font-size: 2.34375vw; /*18 : 768*/
+		float: left;
+		margin-left: 75%;
+		margin-top: 0;
+	}
+	footer {
+		margin-top: 10%;
+		width: 91.66666666666667%; /*704 : 768*/
+		height: 6.25vh; /*48 : 768*/
+	}
+	footer p {
+		width: 32.96590909090909%; /*218 : 704*/
+		height: 100%;
+		text-align: center;
+		font-size: 2.08333333333333vw; /*16 : 768*/
+		line-height: 2.44140625vh; /*18.75 : 768*/
+	}
+	.footerp2 {
+		width: 30.96590909090909%; /*204 : 768*/
+		text-align: center;
+		height: 100%;
+		margin-left: 2.31481481481481vw; /*25 : 1080*/
+		/* identical to box height, or 150% */
+	}
+	.footerp3 {
+		text-align: center;
+		width: 25.96590909090909%; /*218 : 704*/
+		height: 100%;
+		margin-left: 2.22222222222222vw; /*24 : 1080*/
 	}
 }
