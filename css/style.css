@@ -4,7 +4,7 @@
     transition-duration: 0.5s;
     font-family: Roboto;
     overflow: hidden;
-}
+}/* комменты все в пикселях*/
 header {
 	float: left;
 	width: 95.55555555555556%; /*1376 : 1440*/
@@ -455,7 +455,7 @@ footer p {
 		margin-top: 1.30208333333333vh; /*10 : 768*/
 	}
 	.articleleft p {
-		width: 100%;
+		width: 99.5%;
 		height: 17.70833333333333vh; /*136 : 768*/
 		font-size: 2.08333333333333vw; /*16 : 768*/
 		line-height: 2.47395833333333vh; /*19 : 768*/
@@ -470,7 +470,7 @@ footer p {
 		margin-top: 1.30208333333333vh; /*10 : 768*/
 	}
 	.articleright p {
-		width: 99.69040247678019%; /*322 : 323*/
+		width: 99.5%; /*322 : 323*/
 		height: 22.91666666666667vh; /*176 : 768*/
 		margin-left: 3.125vw; /*24 : 768*/
 		font-size: 2.08333333333333vw; /*16 : 768*/
@@ -549,127 +549,111 @@ footer p {
 }
 @media (max-width: 480px){
 	.wrapper {
-	width: 95%;
+	width: 100%;
 	}
 	header {
-		width: 94.07407407407407%; /*1016 : 1080*/
-		margin-left: 2.96296296296296vw; /*32 : 1080*/
+		width: 93.75%; /*450 : 480*/
+		margin-left: 3.125vw; /*15 : 480*/
 	}
 	header img {
-		width: 17.44791666666667vw; /*134 : 768*/
+		width: 27.91666666666667vw; /*134 : 480*/
 	}
 	header p {
-		width: 22.57291666666667%; /*162 : 768*/
-		margin-right: 2.96296296296296vw; /*32 : 1080*/
-		margin-top: 3.38541666666667vh; /*26 : 768*/
-		font-size: 2.08333333333333vw; /*16 : 1080*/
+		width: 34%; /*157,5 : 450*/
+		margin-right: 3vw; /*14,4 : 480*/
+		margin-top: 4vh; /*31.2 : 780*/
+		font-size: 3vw; /*14,4 : 480*/
 	}
 	aside {
-		width: 90%;
+		width: 90%; /*432 : 480*/
 		text-align: center;
-		margin: 0 4.16666666666667vw; /*32 : 768*/
-		margin-top: -6.25vh; /*12 : 768*/
+		margin: 0 4.2vw; /*20,16 : 480*/
+		margin-top: -6.25vh; /*12 : 780*/
 	}
 	aside ul {
+		width: 91%;
 		text-align: center;
-		font-size: 2.34375vw; /*18 : 768*/
+		font-size: 3.333333333vw; /*16 : 480*/
+		margin-left: -5.2vw; /*24,96 : 480*/
 	}
 	aside li {
+		font-weight: 800;
 		display:inline-block;
 		width:18%;
 	}
 	main {
-		width: 91.66666666666667%; /*704 : 768*/
-		margin-left: 3.66666666666667vw; /*32 : 768*/
-		margin-top: 2.96296296296296vh; /*32 : 1080*/
+		width: 92.5%; /*444 : 480*/
+		margin-left: 3.125vw; /*15 : 480*/
+		margin-top: 3vh; /*21.6 : 720*/
 	}
 	.sectionup h1 {
 		text-align: center;
-		width: 44.27083333333333%; /*340 : 768*/
-		margin-left: 23.69791666666667vw; /*182 : 768*/
+		width: 55%; /*244,2 : 444*/
+		margin-left: 20.5vw; /*99.9 : 444*/
 		margin-top: 0;
-		font-size: 2.60416666666667vw; /*20 : 768*/
+		font-size: 4.5vw; /*21.6 : 480*/
 	}
 	h2 {
-		font-size: 2.34375vw; /*18 : 768*/
+		font-size: 4vw; /*19.2 : 480*/
 	}
 	.articleleft, .articleright {
-		width: 48.29545454545455%; /*340 : 704*/
-	}
-	.articleleft h2{
 		width: 100%;
-		height: 2.96296296296296vh; /*32 : 1080*/
-		margin-top: 1.30208333333333vh; /*10 : 768*/
 	}
-	.articleleft p {
+	.articleleft h2, .articleright h2{
 		width: 100%;
-		height: 17.70833333333333vh; /*136 : 768*/
-		font-size: 2.08333333333333vw; /*16 : 768*/
-		line-height: 2.47395833333333vh; /*19 : 768*/
+		height: 3vh; /*21.6 : 720*/
+		margin-top: 2.60vh; /*18.72 : 720*/
+	}
+	.articleleft p, .articleright p {
+		width: 99%;
+		height: 17.7vh; /*138.08 : 780*/
+		font-size: 3.55vw; /*17 : 480*/
+		line-height: 2.5vh; /*18 : 720*/
 	}
 	.articleright {
-		padding-right: 0.83333333333333vw; /*16 : 1920*/
-	}
-	.articleright h2 {
-		width: 99.69040247678019%; /*322 : 323*/
-		height: 2.96296296296296vh; /*32 : 1080*/
-		margin-left: 3.125vw; /*24 : 768*/
-		margin-top: 1.30208333333333vh; /*10 : 768*/
-	}
-	.articleright p {
-		width: 99.69040247678019%; /*322 : 323*/
-		height: 22.91666666666667vh; /*176 : 768*/
-		margin-left: 3.125vw; /*24 : 768*/
-		font-size: 2.08333333333333vw; /*16 : 768*/
-		line-height: 2.47395833333333vh; /*19 : 768*/
+		padding-right: 0.83vw; /*3.94 : 480*/
 	}
 	.sectiondown {
-		width: 100%;
-		height: 10.8359133126935vh; /*105 : 969*/
+		width: 99%;
+		height: 10.8vh; /*77.76 : 720*/
 		margin-top: 2%;
-		font-size: 2.08333333333333vw; /*16 : 768*/
-		line-height: 2.44140625vh; /*18.75 : 768*/
+		font-size: 3.55vw; /*17 : 480*/
+		line-height: 2.5vh; /*18 : 720*/
 	}
 	.asiderightdiv1, .asiderightdiv2 {
-		margin-top: -4%;
 		float: left;
-		width: 48.29545454545455%; /*340 : 704*/
-	}
-	.asiderightdiv2 {
-		margin-left: 3.40909090909091%; /*24 : 768 */
+		width: 100%;
 	}
 	.asideright {
-		height: 48.14814814814815vh; /*520 : 1080*/
-		width: 92.06666666666667%; /*704 : 768*/
+		width: 91%; /*436,8 : 480*/
 		margin-left: 4.16666666666667vw; /*32 : 768*/
 		margin-top: 2.16666666666667vh; /*16 : 768*/
 	}
 	.asideright h1{
-		margin-top: 3.69270833333333vh; /*13 : 768*/
-		margin-bottom: 3.69270833333333vh; /*13 : 768*/
-		font-size: 2.60416666666667vw; /*20 : 768*/
+		margin-top: 12.69270833333333vh; /*13 : 768*/
+		margin-bottom: 2.69270833333333vh; /*13 : 768*/
+		font-size: 4.5vw; /*21.6 : 480*/
 	}
 	.asideright h2 {
 		padding-bottom: 0.45104166666667vh; /*4 : 768*/
 		width: 100%;
 		height: 3.125vh; /*24 : 768*/
-		font-size: 2.34375vw; /*18 : 768*/
+		font-size: 4vw; /*19.2 : 480*/
 		line-height: 3.59597523219814vh; /*30 : 969*/
 	}
 	.asideright p {
 		width: 100%;
-		height: 23.52941176470588vh; /*228 : 969*/
-		font-size: 2.08333333333333vw; /*16 : 768*/
-		line-height: 2.38333333333333vh; /*16 : 768*/
+		font-size: 3.55vw; /*17 : 480*/
+		line-height: 2.5vh; /*18 : 720*/
 	}
 	.asideright b p {
-		font-size: 2.34375vw; /*18 : 768*/
+		font-size: 4vw; /*19.2 : 480*/
 		float: left;
-		margin-left: 75%;
+		margin-left: 64%;
 		margin-top: 0;
 	}
 	footer {
-		margin-top: 10%;
+		margin-top: 30%;
 		width: 91.66666666666667%; /*704 : 768*/
 		height: 6.25vh; /*48 : 768*/
 	}
@@ -677,7 +661,7 @@ footer p {
 		width: 32.96590909090909%; /*218 : 704*/
 		height: 100%;
 		text-align: center;
-		font-size: 2.08333333333333vw; /*16 : 768*/
+		font-size: 2.8333333333333vw; /*16 : 768*/
 		line-height: 2.44140625vh; /*18.75 : 768*/
 	}
 	.footerp2 {
@@ -691,6 +675,6 @@ footer p {
 		text-align: center;
 		width: 25.96590909090909%; /*218 : 704*/
 		height: 100%;
-		margin-left: 2.22222222222222vw; /*24 : 1080*/
+		margin-left: 2.52222222222222vw; /*24 : 1080*/
 	}
 }
