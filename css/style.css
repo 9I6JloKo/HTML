@@ -211,7 +211,6 @@ footer p {
 @media (max-width: 1480px) and (min-width: 1081px) {
 	header {
 		width: 100%;
-		background-color: red;
 	}
 	main h1 {
 		width: 100%;
@@ -414,6 +413,9 @@ footer p {
 		margin-left: 3.66666666666667vw; /*32 : 768*/
 		margin-top: 2.96296296296296vh; /*32 : 1080*/
 	}
+	.articleleft img,.articleright img {
+		width: 50px;
+	}
 	.sectionup h1 {
 		text-align: center;
 		width: 60.27083333333333%; /*340 : 768*/
@@ -552,6 +554,9 @@ footer p {
 		margin-left: 3.125vw; /*15 : 480*/
 		margin-top: 3vh; /*21.6 : 720*/
 	}
+	.articleleft img,.articleright img {
+		width: 25%;
+	}
 	.sectionup h1 {
 		text-align: center;
 		width: 80%; /*244,2 : 444*/
@@ -573,7 +578,7 @@ footer p {
 	.articleleft p, .articleright p {
 		width: 99%;
 		height: 17.7vh; /*138.08 : 780*/
-		font-size: 1em;
+		font-size: 0.9em;
 		line-height: 1.3em;
 	}
 	.articleright {
@@ -583,7 +588,7 @@ footer p {
 		width: 99%;
 		height: 10.8vh; /*77.76 : 720*/
 		margin-top: 2%;
-		font-size: 1em;
+		font-size: 0.9em;
 		line-height: 1.3em;
 	}
 	.asiderightdiv1, .asiderightdiv2 {
@@ -609,7 +614,7 @@ footer p {
 	}
 	.asideright p {
 		width: 100%;
-		font-size: 1em;
+		font-size: 0.9em;
 		line-height: 1.3em;
 	}
 	.asideright b p {
