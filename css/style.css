@@ -210,6 +210,7 @@ footer p {
 @media (max-width: 1480px) and (min-width: 1081px) {
 	.wrapper {
 		width: 97%;
+		margin: 0;
 	}
 	header p {
 		font-size: 1.15vw;
@@ -452,17 +453,18 @@ footer p {
 		font-size: 2.84375vw; /*18 : 768*/
 	}
 	.articleleft, .articleright {
-		width: 48.29545454545455%; /*340 : 704*/
+		width: 49.5%;
 	}
 	.articleleft h2{
-		width: 100%;
-		height: 2.96296296296296vh; /*32 : 1080*/
+		width: 99.69040247678019%; /*322 : 323*/
+		height: 3.0296296296296vh; /*32 : 1080*/
+		padding-bottom: 0.46vh;
 		margin-top: 1.30208333333333vh; /*10 : 768*/
 	}
 	.articleleft p {
 		width: 99.5%;
 		height: 30.70833333333333vh; /*136 : 768*/
-		font-size: 2.38333333333333vw; /*16 : 768*/
+		font-size: 2.58333333333333vw; /*16 : 768*/
 		line-height: 2.47395833333333vh; /*19 : 768*/
 	}
 	.articleright {
@@ -470,7 +472,8 @@ footer p {
 	}
 	.articleright h2 {
 		width: 99.69040247678019%; /*322 : 323*/
-		height: 2.96296296296296vh; /*32 : 1080*/
+		height: 3.0296296296296vh; /*32 : 1080*/
+		padding-bottom: 0.56vh;
 		margin-left: 3.125vw; /*24 : 768*/
 		margin-top: 1.30208333333333vh; /*10 : 768*/
 	}
@@ -485,7 +488,7 @@ footer p {
 		width: 100%;
 		height: 10.8359133126935vh; /*105 : 969*/
 		margin-top: 2%;
-		font-size: 2.38333333333333vw; /*16 : 768*/
+		font-size: 2.58333333333333vw; /*16 : 768*/
 		line-height: 2.47395833333333vh; /*19 : 768*/
 	}
 	.asiderightdiv1, .asiderightdiv2 {
@@ -517,17 +520,17 @@ footer p {
 	.asideright p {
 		width: 100%;
 		height: 25.52941176470588vh; /*228 : 969*/
-		font-size: 2.38333333333333vw; /*16 : 768*/
+		font-size: 2.58333333333333vw; /*16 : 768*/
 		line-height: 2.47395833333333vh; /*19 : 768*/
 	}
 	.asideright b p {
-		font-size: 2.34375vw; /*18 : 768*/
+		font-size: 2.54375vw; /*18 : 768*/
 		float: left;
 		margin-left: 75%;
-		margin-top: 7vh;
+		margin-top: 9vh;
 	}
 	footer {
-		margin-top: 10%;
+		margin-top: 20%;
 		width: 91.66666666666667%; /*704 : 768*/
 		height: 6.25vh; /*48 : 768*/
 	}
