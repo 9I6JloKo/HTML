@@ -532,7 +532,7 @@ footer p {
 	footer {
 		margin-top: 20%;
 		width: 91.66666666666667%; /*704 : 768*/
-		height: 6.25vh; /*48 : 768*/
+		height: 7.25vh; /*48 : 768*/
 	}
 	footer p {
 		width: 32.96590909090909%; /*218 : 704*/
@@ -550,7 +550,7 @@ footer p {
 	}
 	.footerp3 {
 		text-align: center;
-		width: 25.96590909090909%; /*218 : 704*/
+		width: 29.96590909090909%; /*218 : 704*/
 		height: 100%;
 		margin-left: 2.22222222222222vw; /*24 : 1080*/
 	}
@@ -681,7 +681,7 @@ footer p {
 	}
 	.footerp3 {
 		text-align: center;
-		width: 25.96590909090909%; /*218 : 704*/
+		width: 29.96590909090909%; /*218 : 704*/
 		height: 100%;
 		margin-left: 2.52222222222222vw; /*24 : 1080*/
 	}
