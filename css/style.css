@@ -38,13 +38,22 @@ nav {
 }
 
 nav a {
+    -webkit-transition: 0.3s ease;
     text-decoration: unset;
     color: black;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
     text-align: center;
     width: 120px;
     margin: 0px 40px;
+}
+nav a:hover {
+    transition-duration: 0.3s;
+    color: antiquewhite;
+    text-shadow: 1px 1px 3px black,
+    0px 1px 1px black,
+    -1px 1px 1px black,
+    -1px 0px 1px black;
 }
 main {
     margin-top: 50px;
@@ -53,8 +62,13 @@ section {
     text-align: center;
     display:flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 article {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
     width: 295px;
 }
 article img {
@@ -62,18 +76,36 @@ article img {
     height: 450px;
 }
 article p {
+    margin: 20px 20px;
     text-align: justify; 
     height: 100px;
 }
 article a {
     text-decoration: unset;
     color:black;
-    border: 1px solid black;
+    border: 1px solid silver;
+    border-style: dashed;
     border-radius: 10px;
     padding: 5px;
 }
+article a:hover, footer a:hover {
+    text-decoration: underline;
+}
 article:hover {
     transition-duration: 0.5s;
-    background-color: lightblue;
+    background-color: ghostwhite;
     border-radius: 10px;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+footer a {
+    align-self: center;
+    text-decoration: unset;
+    color:black;
+}
+footer img {
+    width: 30px;
 }
