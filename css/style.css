@@ -13,7 +13,30 @@ header {
     display: flex;
     justify-content: space-between;
 }
-
+input[type="text"] {
+    background-color: white;
+    height:25px;
+    border-radius: 5px 0 0 5px;
+    border-style: dashed;
+    border-color: black;
+    border-right-color: transparent;
+}
+input[type="submit"] {
+    -webkit-transition: 0.3s ease;
+    background-color: white;
+    border-radius: 0 5px 5px 0;
+    margin-right: 15px;
+    border-style: dashed;
+    border-color: black;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: lightgrey;
+}
+input[type="submit"]:hover{
+    transition-duration: 0.3s;
+    background-color: lightgrey;
+    cursor: pointer;
+}
 .logo {
     display: flex;
 }
@@ -57,6 +80,9 @@ nav a:hover {
 }
 main {
     margin-top: 50px;
+}
+main h2 {
+    text-align: center;
 }
 section {
     text-align: center;
