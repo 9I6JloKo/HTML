@@ -1,17 +1,25 @@
 div {
-    width: 1280px;
+    width: 66.66666666666667%;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
 }
 header {
+    align-items: center;
     border-radius: 20px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     background-color: white;
     position: sticky;
-    top: 0;
+    top: 0px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+form{
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 input[type="text"] {
     background-color: white;
@@ -22,10 +30,9 @@ input[type="text"] {
     border-right-color: transparent;
 }
 input[type="submit"] {
-    -webkit-transition: 0.3s ease;
+    transition-duration: 0.3s;
     background-color: white;
     border-radius: 0 5px 5px 0;
-    margin-right: 15px;
     border-style: dashed;
     border-color: black;
     border-left-style: solid;
@@ -33,35 +40,32 @@ input[type="submit"] {
     border-left-color: lightgrey;
 }
 input[type="submit"]:hover{
-    transition-duration: 0.3s;
     background-color: lightgrey;
     cursor: pointer;
 }
 .logo {
+    margin-left: 10px;
     display: flex;
 }
-
 header img {
-    margin-left: 10px;
-    width: 8%;
+    width: 80px;
+    height: 80px;
 }
-
 h1 {
     margin: auto auto auto 25px;
 }
-
 header form{
     display: flex;
     text-align: right;
     align-self:center;
 }
 nav {
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
 }
-
 nav a {
-    -webkit-transition: 0.3s ease;
+    transition-duration: 0.3s;
     text-decoration: unset;
     color: black;
     font-size: 22px;
@@ -69,9 +73,9 @@ nav a {
     text-align: center;
     width: 120px;
     margin: 0px 40px;
+    border-radius: 100%;
 }
 nav a:hover {
-    transition-duration: 0.3s;
     color: antiquewhite;
     text-shadow: 1px 1px 3px black,
     0px 1px 1px black,
@@ -82,7 +86,10 @@ main {
     margin-top: 50px;
 }
 main h2 {
+    margin: 20px 5px;
     text-align: center;
+    background-color: whitesmoke;
+    border-radius: 5px;
 }
 section {
     text-align: center;
@@ -91,13 +98,16 @@ section {
     flex-wrap: wrap;
     flex-direction: row;
 }
-article {
-    margin-bottom: 30px;
+article, figure {
+    flex-grow: 1;
+    margin: auto 5px 30px 5px;
+    transition-duration: 0.5s;
     display: flex;
     flex-direction: column;
     width: 295px;
 }
-article img {
+article img, figure img {
+    margin: auto auto;
     width: 295px;
     height: 450px;
 }
@@ -114,11 +124,10 @@ article a {
     border-radius: 10px;
     padding: 5px;
 }
-article a:hover, footer a:hover {
+article a:hover,, footer a:hover {
     text-decoration: underline;
 }
-article:hover {
-    transition-duration: 0.5s;
+article:hover, figure:hover {
     background-color: ghostwhite;
     border-radius: 10px;
 }
