@@ -198,7 +198,7 @@ footer img {
 }
 @media (max-width:799px) and (min-width: 522px){
     div{
-        width: 97.5%;
+        width: 100%;
     }
 }
 @media (max-width:521px){
