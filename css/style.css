@@ -26,6 +26,7 @@ form{
 input[type="text"] {
     background-color: white;
     height:2.63vh;
+    width: 60%;
     border-radius: 0.26vw 0 0 0.26vw;
     border-style: dashed;
     border-color: black;
@@ -197,12 +198,12 @@ footer img {
         width: 95%;
     }
 }
-@media (max-width:799px) and (min-width: 522px){
+@media (max-width:799px) and (min-width: 541px){
     div{
         width: 97.5%;
     }
 }
-@media (max-width:521px){
+@media (max-width:540px){
     div{
         width: 100%;
     }
@@ -216,8 +217,5 @@ footer img {
     form p{
         width: 100%;
         text-align: center;
-    }
-    input[type="text"] {
-        width: 60%;
     }
 }
