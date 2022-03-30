@@ -1,11 +1,12 @@
 div {
-    width: 66.66666666666667%;
+    transition-duration: 0.5s;
+    width: 67.2vw;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
 }
 header {
     align-items: center;
-    border-radius: 20px;
+    border-radius: 1.05vw;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     background-color: white;
@@ -16,15 +17,15 @@ header {
     justify-content: space-around;
 }
 form{
-    width: 250px;
+    width: 240px;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 10px;
+    margin-bottom: 1.05vh;
 }
 input[type="text"] {
     background-color: white;
-    height:25px;
-    border-radius: 5px 0 0 5px;
+    height:2.63vh;
+    border-radius: 0.26vw 0 0 0.26vw;
     border-style: dashed;
     border-color: black;
     border-right-color: transparent;
@@ -32,11 +33,11 @@ input[type="text"] {
 input[type="submit"] {
     transition-duration: 0.3s;
     background-color: white;
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 0.26vw 0.26vw 0;
     border-style: dashed;
     border-color: black;
     border-left-style: solid;
-    border-left-width: 1px;
+    border-left-width: 0.0525vw;
     border-left-color: lightgrey;
 }
 input[type="submit"]:hover{
@@ -44,7 +45,8 @@ input[type="submit"]:hover{
     cursor: pointer;
 }
 .logo {
-    margin-left: 10px;
+    width: 250px;
+    margin-left: 0.525vw;
     display: flex;
 }
 header img {
@@ -52,7 +54,7 @@ header img {
     height: 80px;
 }
 h1 {
-    margin: auto auto auto 25px;
+    margin: auto auto auto 1.3vw;
 }
 header form{
     display: flex;
@@ -68,28 +70,28 @@ nav a {
     transition-duration: 0.3s;
     text-decoration: unset;
     color: black;
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: 600;
     text-align: center;
     width: 120px;
-    margin: 0px 40px;
+    margin: 0px 2.1vw;
     border-radius: 100%;
 }
 nav a:hover {
     color: antiquewhite;
-    text-shadow: 1px 1px 3px black,
-    0px 1px 1px black,
-    -1px 1px 1px black,
-    -1px 0px 1px black;
+    text-shadow: 0,0525vw 0,1054vh 0,1575vw black,
+    0px 0,1054vh 0,1054vh black,
+    -0,0525vw 0,1054vh 0,0525vw black,
+    -0,0525vw 0px 0,0525vw black;
 }
 main {
-    margin-top: 50px;
+    margin-top: 5.27vh;
 }
 main h2 {
-    margin: 20px 5px;
+    margin: 2.11vh 0.2625vw;
     text-align: center;
     background-color: whitesmoke;
-    border-radius: 5px;
+    border-radius: 0.2625vw;
 }
 section {
     text-align: center;
@@ -100,7 +102,7 @@ section {
 }
 article, figure {
     flex-grow: 1;
-    margin: auto 5px 30px 5px;
+    margin: auto 0.2625vw 30px 0.2625vw;
     transition-duration: 0.5s;
     display: flex;
     flex-direction: column;
@@ -112,24 +114,24 @@ article img, figure img {
     height: 450px;
 }
 article p {
-    margin: 20px 20px;
+    margin: 2.11vh 1.05vw;
     text-align: justify; 
-    height: 100px;
+    height: 10.537vh;
 }
 article a {
     text-decoration: unset;
     color:black;
-    border: 1px solid silver;
+    border: 0.0525vw solid silver;
     border-style: dashed;
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: 0.525vw;
+    padding: 0.527vh 0.2625vw 0.527vh 0.2625vw;
 }
 article a:hover,, footer a:hover {
     text-decoration: underline;
 }
 article:hover, figure:hover {
     background-color: ghostwhite;
-    border-radius: 10px;
+    border-radius: 0.525vw;
 }
 footer {
     display: flex;
@@ -143,4 +145,72 @@ footer a {
 }
 footer img {
     width: 30px;
+}
+@media (max-width:1850px) and (min-width: 1820px){
+    div{
+        width: 72.5%;
+    }
+}
+@media (max-width:1819px) and (min-width: 1750px){
+    div{
+        width: 75%;
+    }
+}
+@media (max-width:1750px) and (min-width: 1700px){
+    div{
+        width: 77.5%;
+    }
+}
+@media (max-width:1699px) and (min-width: 1650px){
+    div{
+        width: 80%;
+    }
+}
+@media (max-width:1649px) and (min-width: 1600px){
+    div{
+        width: 82.5%;
+    }
+}
+@media (max-width:1599px) and (min-width: 1550px){
+    div{
+        width: 85%;
+    }
+}
+@media (max-width:1549px) and (min-width: 1500px){
+    div{
+        width: 87.5%;
+    }
+}
+@media (max-width:1499px) and (min-width: 1450px){
+    div{
+        width: 90%;
+    }
+}
+@media (max-width:1449px) and (min-width: 1400px){
+    div{
+        width: 92.5%;
+    }
+}
+@media (max-width:1399px) and (min-width: 800px){
+    div{
+        width: 95%;
+    }
+}
+@media (max-width:799px) and (min-width: 522px){
+    div{
+        width: 97.5%;
+    }
+}
+@media (max-width:521px){
+    div{
+        width: 100%;
+    }
+    .logo{
+        position: relative;
+        margin: 0 auto 0 auto;
+    }
+    form p{
+        width: 100%;
+        text-align: center;
+    }
 }
