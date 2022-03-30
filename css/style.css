@@ -17,6 +17,7 @@ header {
     justify-content: space-around;
 }
 form{
+    position: relative;
     width: 240px;
     display: flex;
     flex-wrap: wrap;
@@ -102,7 +103,7 @@ section {
 }
 article, figure {
     flex-grow: 1;
-    margin: auto 0.2625vw 30px 0.2625vw;
+    margin: auto 0.2625vw 3.16vh 0.2625vw;
     transition-duration: 0.5s;
     display: flex;
     flex-direction: column;
@@ -116,7 +117,7 @@ article img, figure img {
 article p {
     margin: 2.11vh 1.05vw;
     text-align: justify; 
-    height: 10.537vh;
+    height: 100px;
 }
 article a {
     text-decoration: unset;
@@ -198,7 +199,7 @@ footer img {
 }
 @media (max-width:799px) and (min-width: 522px){
     div{
-        width: 100%;
+        width: 97.5%;
     }
 }
 @media (max-width:521px){
@@ -207,10 +208,16 @@ footer img {
     }
     .logo{
         position: relative;
-        margin: 0 auto 0 auto;
+        margin: 0 auto -2% auto;
+    }
+    form {
+        justify-content: center;
     }
     form p{
         width: 100%;
         text-align: center;
+    }
+    input[type="text"] {
+        width: 60%;
     }
 }
